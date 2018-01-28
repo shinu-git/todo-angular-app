@@ -1,0 +1,29 @@
+
+<form >
+<div>
+  <div *ngIf="success" class="msgSucess">{{this.successMsg}}</div>
+  <div *ngIf="error"  class="msgError">{{this.errorMsg}}</div>
+    <table class="container">
+
+       <tbody>
+         <tr >
+           <td><Label>Title : </Label></td>
+           <td><input [(ngModel)]="todo.title" placeholder="Title" autofocus [ngModelOptions]="{standalone: true}"></td>
+         </tr>
+         <tr >
+            <td><Label>Description : </Label></td>
+            <td><input [(ngModel)]="todo.description" placeholder="Description" autofocus [ngModelOptions]="{standalone: true}"></td>
+          </tr>
+          <tr >
+              <td colspan="2"> <button (click)="onSubmit()">Save</button></td>
+              
+            </tr>
+        
+       </tbody>
+     </table>
+   </div> 
+   </form>
+
+
+      
+       

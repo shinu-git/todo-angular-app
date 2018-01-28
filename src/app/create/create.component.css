@@ -1,0 +1,16 @@
+.msgSucess { text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    font-weight: 300;
+    line-height: 1.42em;
+color: #049e0a;
+}
+.msgError { text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    font-weight: 300;
+    line-height: 1.42em;
+    color: #c40707;
+    }
